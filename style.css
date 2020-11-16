@@ -1,0 +1,96 @@
+div{
+border: 2px,solid red;
+}
+
+body{
+	margin: 0px,
+	padding: 0px;
+	background-image: url(people-2604149_1920.jpg);
+	height: 1000px;
+	color: white;
+	}
+	.left{
+		display: inline-block;
+		border: 2px solid red;
+		width: 100px;
+		position: absolute;
+		left: 35px;
+		top: 25px;
+		height: 100px;
+		}
+    
+	.mid{
+		display: block;
+		width: 35%;
+		margin: auto;
+	}
+.right{
+		display: inline-block;
+		
+		width: 200px;
+		position: absolute;
+		right: 35px;
+		top: 25px;
+}
+.navbar ul li{
+	display: inline-block;
+	
+}
+.navbar ul li a{
+	display: inline-block;
+	color: white;
+	margin: 10px;
+	font-weight: bold;
+    padding: 7px;
+    font-size: 20px;
+    text-decoration: none;
+
+
+    
+}
+.navbar ul{
+	display: inline-block;
+	border: 2px solid black;
+	border-radius: 10px;
+	background: black;
+}
+.btn{
+	
+margin: 10px;
+	font-weight: bold; 
+}
+.form1{
+	display: block;
+	margin: 100px;
+	width: 30%;
+	border: 2px solid green;
+	background: pink;
+	color: black;
+
+
+}	
+.conact{
+	display: block;
+	width: 300px;
+	margin: 10px;
+    
+}
+h1{
+	color: red;
+	text-decoration: underline;
+	text-align: center;
+}
+img{
+	height: 80px;
+	width: 100px;
+}
+.navbar li a:hover,.navbar li a:active{
+	background: green;
+	color: yellow;
+	text-decoration: underline;
+}
+.btn:hover,.btn:active{
+	background: gray;
+	color: purple;
+	color: yellow;
+}
